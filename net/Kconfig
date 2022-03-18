@@ -205,7 +205,7 @@ config BRIDGE_NETFILTER
 config SLA_STAIC_COLLECT
 	bool "Build SLA module"
 	depends on NET && INET && NETFILTER
-	default y
+	default n
 
 source "net/netfilter/Kconfig"
 source "net/ipv4/netfilter/Kconfig"
